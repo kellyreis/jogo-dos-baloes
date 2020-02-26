@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Estourando balões</title>
+    <script src="js/home.js"></script>
+
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body style="   background: url(../imagens/cenario.png) top center repeat;">
+    <div class="container">
+        <div class="bloco-jogo">
+            <h1>Jogo dos balões</h1>
+            <p>Estourar os balões no menor tempo possivel</p>
+            <div class="comandos">
+                <p>Selecione o nivel: </p>
+                <select id="nivel_jogo">
+	<option value="1">Fácil</option>
+	<option value="2">Normal</option>
+	<option value="3">Dificil</option>
+</select>
+            </div>
+
+            <img src="imagens/iniciar.png" onclick="iniciaJogo()" />
+        </div>
+    </div>
+</body>
+
+</html>
